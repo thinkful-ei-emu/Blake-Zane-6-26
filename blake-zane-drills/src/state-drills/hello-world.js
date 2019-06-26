@@ -21,7 +21,7 @@ render() {
     <div>
       <p>hello, {this.state.who}</p>
       <button onClick={() => this.handleWhoClick('World')}>World</button>
-      <button onClick={() => this.handleWhoClick('Freind')}>Friend</button>
+      <button onClick={() => this.handleWhoClick('Friend')}>Friend</button>
       <button onClick={() => this.handleWhoClick('React')}>React</button>
     </div>
   );
